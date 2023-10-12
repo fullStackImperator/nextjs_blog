@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home({ posts }) {
   return (
-    <main className="container mx-auto px-10 mb-8  bg-gray-300">
+    <main className="container mx-auto px-10 mb-8 bg-gray-300">
       {/* <Head>
         <title>AB Blog</title>
         <link rel="stylesheet" href="" />
