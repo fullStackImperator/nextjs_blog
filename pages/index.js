@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { PostCard, Categories, PostWidget } from '@/components'
+import { PostCard, Categories, PostWidget, Hero } from '@/components'
 import { getPosts } from '../services'
 import { Inter } from 'next/font/google'
 
@@ -20,6 +20,7 @@ export default function Home({ posts }) {
         <title>AB Blog</title>
         <link rel="stylesheet" href="" />
       </Head> */}
+      <Hero />
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-1">
